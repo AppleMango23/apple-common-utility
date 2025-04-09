@@ -1,17 +1,17 @@
-📦 common-utility-rn
+📦 apple-common-utility
 
 A simple React Native utility library for responsive design and common validations. This package provides helpful functions to handle screen scaling and object/string validation.
 
 📲 Installation
 
 ```
-npm install common-utility-rn
+npm install apple-common-utility
 ```
 
 or
 
 ```
-yarn add common-utility-rn
+yarn add apple-common-utility
 ```
 
 📐 Utility Functions
@@ -32,7 +32,7 @@ import {
   normalize,
   isStringEmpty,
   isObjectEmpty
-} from 'common-utility-rn';
+} from 'apple-common-utility';
 
 const buttonWidth = responsiveWidth(200);
 const buttonHeight = responsiveHeight(50);
